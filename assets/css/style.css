@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Sanchez&display=swap');
+
+*{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+.fill{
+    height: 100vh;
+    border-radius: 0;
+}
+
+.middle-of-page{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.title{
+    color: #ffffff;
+    background: linear-gradient(rgba(30,115,190,0.7),rgba(30,115,190,0.7)),linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../images/bg1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.title i{
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.title a{
+    text-decoration: none;
+}
+
+.title .name{
+    font-family: 'Sanchez', serif;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.profile-image{
+    width: 250px;
+    border-radius: 50%;
+    border: solid 10px #ffffff;
+}
